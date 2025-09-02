@@ -32,6 +32,7 @@ const PostDetail = () => {
     </div>
    <div>
     <Link to={`/post-edit/${id}`}>Edit</Link>
+    <Link to={`/post-delete/${id}`}>Delete</Link>
    </div>
    </>
   );
